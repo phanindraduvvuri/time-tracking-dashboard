@@ -1,6 +1,11 @@
+import StatCard from './components/StatCard';
+import stats from './data.json';
+
 function App() {
   return (
-    <h1>App</h1>
+    <div className="container">
+      <StatCard stats={stats} />
+    </div>
   );
 }
 
