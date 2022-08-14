@@ -72,3 +72,36 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+/* Custom Properties */
+:root {
+  --clr-primary-blue: hsl(246, 80%, 60%);
+  --clr-primary-work: hsl(15, 100%, 70%);
+  --clr-primary-play: hsl(195, 74%, 62%);
+  --clr-primary-study: hsl(348, 100%, 68%);
+  --clr-primary-exercise: hsl(145, 58%, 55%);
+  --clr-primary-social: hsl(264, 64%, 52%);
+  --clr-primary-self-care: hsl(43, 84%, 65%);
+
+  --clr-neutral-800: hsl(226, 43%, 10%);
+  --clr-neutral-600: hsl(235, 46%, 20%);
+  --clr-neutral-300: hsl(235, 45%, 61%);
+  --clr-neutral-200: hsl(236, 100%, 87%);
+
+  --font-family: "Rubik", sans-serif;
+  --fs-card-title: 18px;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--fs-card-title);
+}
